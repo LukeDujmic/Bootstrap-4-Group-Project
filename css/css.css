@@ -10,11 +10,21 @@
 body {
     font-family: 'PressStart2P';
 }
-header {
-    margin: 5px;
-}
 nav {
     margin: 5px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav div {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+nav img {
+    width: 400px;
+    height: 400px;
 }
 article {
     margin: 5px
