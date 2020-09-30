@@ -26,3 +26,10 @@ header
     right: 0;
     width: 200px;
 }
+
+/* article styles */
+article
+{
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(155, 99, 71, 0.418);
+}

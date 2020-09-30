@@ -10,9 +10,9 @@
     </head>
 
     <body>
-        <header>
-            <div id="mainImage"> <img src=""> </div>
-            <div id="headerText">Frogger</div>
+        <header class="d-inline-flex p-3 justify-content-around align-items-stretch jumbotron">
+            <div id="mainImage"> <img src="images/froggerCover.png"> </div>
+            <div class="display-4" id="headerText" >Frogger</div>
             <div id="homeButton"> <a href="index.html"> <img src="images/homeButton.png"> </a> </div>
         </header>
 
@@ -27,14 +27,22 @@
 
 
         <article>
-            <label name="FName">First Name:</label>
-            <input type="text" id="Fname" name="FName" placeholder="Yourfirstname">
-
-            <label name="LName">Last Name:</label>
-            <input type="text" id="Lname" name="LName" placeholder="Yourlastname">
-
-            <label name="EMail">Email:</label>
-            <input type="email" id="Email" name="EMail" placeholder="someone123@frogmail.com">
+            <form>
+                <div class="inputs">
+                    <label name="FName">First Name:</label>
+                    <input type="text" id="Fname" name="FName" placeholder="Your First Name">
+                </div>
+    
+                <div class="inputs">
+                    <label name="LName">Last Name:</label>
+                    <input type="text" id="Lname" name="LName" placeholder="Your Last Name">
+                </div>
+    
+                <div class="inputs">
+                    <label name="EMail">Email:</label>
+                    <input type="email" id="Email" name="EMail" placeholder="someone123@frogmail.com">
+                </div>
+            </form>
         </article>
 
 
