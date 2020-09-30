@@ -1,5 +1,12 @@
 "user strict"
 
+function phoneRings() {
+    document.getElementById("phone").src = "images/contactGif.gif"
+}
+function phoneStops() {
+    document.getElementById("phone").src = "images/contact.png"
+}
+
 function coolImageFunction() {
     document.getElementById("image1").src = "images/gif1.gif"
 }
