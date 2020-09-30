@@ -1,0 +1,28 @@
+/* body styles */
+
+
+/* Header styles and stuff */
+header
+{
+    display: flex;
+    width: 100%;
+}
+#mainImage > img
+{
+    display: relative;
+    width: 200px;
+    left: 0;
+}
+#headerText
+{
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    color: green;
+    padding-top: 50px;
+}
+#homeButton > a > img
+{
+    display: relative;
+    right: 0;
+    width: 200px;
+}
