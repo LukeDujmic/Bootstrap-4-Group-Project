@@ -2,6 +2,21 @@
     font-family: 'PressStart2P';
     src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
 }
+/* header stuff */
+
+header
+{
+    display: flex;
+    width: 100%;
+    border: solid 5px rgb(10, 20, 8);
+}
+.jumbotron
+{
+    background-color: rgb(32, 13, 8)!important;
+    border-radius: 0px!important;
+}
+
+/*  */
 * {
     margin: 0;
     padding: 0;
@@ -67,12 +82,11 @@ article {
 }
 
 footer {
-    margin-top: 50px;
     text-align: center;
     font-size: 12px;
-    background-color: #30572b;
+    background-color: #203a1c;
     color: white;
-    box-shadow: 0 20px 0 0 #30572b;
+    box-shadow: 0 20px 0 0 #203a1c;
 }
 footer p {
     padding: 25px
