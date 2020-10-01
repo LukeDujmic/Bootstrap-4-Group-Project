@@ -11,18 +11,38 @@
     </head>
 
     <body>
-        <header class="d-inline-flex p-3 justify-content-around align-items-stretch jumbotron">
-            <div id="mainImage"> <img src="images/froggerCover.png"> </div>
-            <div class="display-4" id="headerText" >Frogger</div>
-            <div id="homeButton"> <a href="index.html"> <img src="images/homeButton.png"> </a> </div>
+        <header class="d-inline-flex p-3 justify-content-around align-items-stretch jumbotron" style="background-color: #317728;">
+            <div id="mainImage">
+                <img src="images/froggerCover.png">
+            </div>
+            <div class="display-4" id="headerText">Frogger</div>
+            <div id="homeButton" class="card" style="border:none;background-color: #317728;">
+                <a href="index.html"><img src="images/homeButton.png"></a>
+                <h5 class="card-title" style="text-align: center;padding-top: 10px;">Home</h5> 
+            </div>
         </header>
 
         <nav>
-            <div> <a href="about.html"> <figure> <img src="images/about us.png"> <figcaption>About</figcaption> </figure> </a> </div>
-            <div> <a href="history.html"> <figure> <img src="images/History.PNG"> <figcaption>History</figcaption> </figure> </a> </div><!--https://mentalitch.com/history-of-the-classic-video-game-frogger/-->
-            <div> <a href="contact.html" onmouseover="phoneRings()" onmouseout="phoneStops()"> <figure> <img src="images/contact.png" id="phone"> <figcaption>Contact</figcaption> </figure> </a> </div> 
-            <div> <a href="froggerGame1/froggerGame.html" onmouseover="coolImageFunction()" onmouseout="coolImageLeaving1()"> <img src="images/image1.png" id="image1"></a></div>
-            <div> <a href="froggerGame2/froggerGame.html" onmouseover="coolImageFunction2()" onmouseout="coolImageLeaving2()"> <img src="images/image2.PNG" id="image2"></a></div>
+            <div class="card"> 
+                <a href="about.html"><img src="images/about us.png"></a> 
+                <h5 class="card-title">About Us</h5>
+            </div>
+            <div class="card"> 
+                <a href="history.html"><img src="images/History.PNG"></a>
+                <h5 class="card-title">History</h5>
+            </div> <!--https://mentalitch.com/history-of-the-classic-video-game-frogger/-->
+            <div class="card"> 
+                <a href="contact.html" onmouseover="phoneRings()" onmouseout="phoneStops()"><img src="images/contact.png" id="phone"></a>
+                <h5 class="card-title">Contact Us</h5> 
+            </div> 
+            <div class="card"> 
+                <a href="froggerGame1/froggerGame.html" onmouseover="coolImageFunction()" onmouseout="coolImageLeaving1()"><img src= "images/image1.png" id="image1"></a>
+                <h5 class="card-title">Frogger 1</h5>
+            </div>
+            <div class="card">
+                <a href="froggerGame2/froggerGame.html" onmouseover="coolImageFunction2()" onmouseout="coolImageLeaving2()"> <img src="images/image2.PNG" id="image2"></a>
+                <h5 class="card-title">Frogger 2</h5>
+            </div>
         </nav>
         
         <article>

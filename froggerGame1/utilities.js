@@ -64,5 +64,5 @@ function resetGame(){
     frogger.y = canvas.height - frogger.height - 40;
     score=0;
     collisionsCount++;
-    gameSpeed=.05
+    gameSpeed=1
 }

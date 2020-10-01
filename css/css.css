@@ -9,6 +9,37 @@
 }
 body {
     font-family: 'PressStart2P';
+    background-color: #9bd494;
+}
+header
+{
+    display: flex;
+    width: 100%;
+}
+#mainImage > img
+{
+    position: relative;
+    width: 200px;
+    left: 0;
+}
+#headerText
+{
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    color: rgb(73, 218, 73);
+    padding-top: 100px;
+}
+#homeButton > a > img {
+    position: relative;
+    padding-top: 20px;
+    width: 200px;
+}
+
+/* article styles */
+article
+{
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(155, 99, 71, 0.418);
 }
 nav {
     margin: 5px;
@@ -19,15 +50,20 @@ nav {
 }
 nav div {
     margin: 10px;
-    border: 2px solid black;
-    border-radius: 5px;
+}
+nav .card {
+    background-color: #41b132;
 }
 nav img {
     width: 400px;
     height: 400px;
 }
 article {
-    margin: 5px
+    margin: 5px auto;
+    padding: 10px;
+    width: 60%;
+    font-size: 100%;
+    text-align: center;
 }
 
 footer {

@@ -1,0 +1,62 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta name="viewport" content="">
+        <title>Bootstrap Site</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+        <link rel="stylesheet" type="text/css" href="css/homepage.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src="js/scripts.js"></script>
+    </head>
+
+    <body>
+        <header class="d-inline-flex p-3 justify-content-around align-items-stretch jumbotron" style="background-color: #317728;">
+            <div id="mainImage">
+                <img src="images/froggerCover.png">
+            </div>
+            <div class="display-4" id="headerText">Frogger</div>
+            <div id="homeButton" class="card" style="border:none;background-color: #317728;">
+                <a href="index.html"><img src="images/homeButton.png"></a>
+                <h5 class="card-title" style="text-align: center;padding-top: 10px;">Home</h5> 
+            </div>
+        </header>
+
+        <nav>
+            <div class="card"> 
+                <a href="about.html"><img src="images/about us.png"></a> 
+                <h5 class="card-title">About Us</h5>
+            </div>
+            <div class="card"> 
+                <a href="history.html"><img src="images/History.PNG"></a>
+                <h5 class="card-title">History</h5>
+            </div> <!--https://mentalitch.com/history-of-the-classic-video-game-frogger/-->
+            <div class="card"> 
+                <a href="contact.html"  onmouseover="phoneRings()" onmouseout="phoneStops()"><img src="images/contact.png" id="phone"></a>
+                <h5 class="card-title">Contact Us</h5> 
+            </div> 
+            <div class="card"> 
+                <a href="froggerGame1/froggerGame.html" onmouseover="coolImageFunction()" onmouseout="coolImageLeaving1()"><img src= "images/image1.png" id="image1"></a>
+                <h5 class="card-title">Frogger 1</h5>
+            </div>
+            <div class="card">
+                <a href="froggerGame2/froggerGame.html" onmouseover="coolImageFunction2()" onmouseout="coolImageLeaving2()"> <img src="images/image2.PNG" id="image2"></a>
+                <h5 class="card-title">Frogger 2</h5>
+            </div>
+        </nav>
+
+
+
+        <footer>
+            <p>Call frogger at (689)-462-5149</p>
+            <p>Contact frogger at TheRealFrogger@frogmail.com</p>
+        </footer>
+        
+        
+        
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
