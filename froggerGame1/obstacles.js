@@ -50,7 +50,7 @@ function initObstacles() {
     //lane 2
     for(let i = 0;i < 2; i++){
         let x = i * 300;
-        carsArray.push(new Obstacle(x, canvas.height - grid * 3 - 20, grid * 2, grid, -2, 'car')); 
+        carsArray.push(new Obstacle(x, canvas.height - grid * 3 - 20, grid * 2, grid, -5, 'car')); 
     }
     //lane 3
     for(let i=0; i < 2; i++){

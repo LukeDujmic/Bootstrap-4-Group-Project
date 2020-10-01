@@ -15,7 +15,7 @@ class Frogger
     update()
     {
         //console.log("update");
-        if (keys[38]) //up
+        if (keys[38] || keys[87]) //up
         {
             if (this.moving === false)
             {
@@ -25,7 +25,7 @@ class Frogger
                 this.frameY = 0;
             }
         }
-        if (keys[40]) //down
+        if (keys[40] || keys[83]) //down
         {
             if (this.y < canvas.height - this.height * 2 && this.moving === false)
             {
@@ -34,7 +34,7 @@ class Frogger
                 this.frameY = 3;    // animating the frog based on its direction
             }
         }
-        if (keys[37]) //left
+        if (keys[37] || keys[65]) //left
         {
             if (this.x > this.width && this.moving === false)
             {
@@ -43,7 +43,7 @@ class Frogger
                 this.frameY = 2;        // animating the frog based on its direction
             }
         }
-        if (keys[39]) //right
+        if (keys[39] || keys[68]) //right
         {
             if (this.x < canvas.width - this.width * 2 && this.moving === false)
             {

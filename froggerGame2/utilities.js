@@ -26,7 +26,7 @@ window.addEventListener('keydown', function(e)
 {
     keys = [];
     keys[e.keyCode] = true;
-    if (keys[37] || keys[38] || keys[39] || keys[49])       // frogger movement function, uses arrow keys in four basic directions
+    if (keys[37] || keys[38] || keys[39] || keys[49] || keys[87] || keys[83] || keys[65] || keys[68])       // frogger movement function, uses arrow keys in four basic directions
     {
         frogger.jump()
 ;    }
