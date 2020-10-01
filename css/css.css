@@ -12,7 +12,7 @@ header
 }
 .jumbotron
 {
-    background-color: rgb(32, 13, 8)!important;
+    background-color: rgb(43, 20, 15)!important;
     border-radius: 0px!important;
 }
 
@@ -41,7 +41,7 @@ header
 {
     margin: 0px 10px 0px 10px;
     text-align: center;
-    color: rgb(73, 218, 73);
+    color: green;
     padding-top: 100px;
 }
 #homeButton > a > img {
@@ -55,6 +55,9 @@ article
 {
     margin: 10px 0px 10px 0px;
     background-color: rgba(155, 99, 71, 0.418);
+}
+.contactStuff {
+    margin: 10px auto;
 }
 nav {
     margin: 5px;
@@ -79,6 +82,10 @@ article {
     width: 60%;
     font-size: 100%;
     text-align: center;
+}
+
+.link {
+    opacity: .8;
 }
 
 footer {
