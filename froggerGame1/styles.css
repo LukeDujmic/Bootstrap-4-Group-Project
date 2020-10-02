@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
 body {
     background-color: #9bd494;
+    font-family: 'PressStart2P';
 }
 .wrapper {
     border: 5px solid black;
@@ -17,4 +23,25 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
+}
+nav {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 3%
+}
+nav div {
+    margin: 10px;
+}
+nav .card {
+    background-color: #307927;
+}
+nav .card:hover {
+    background-color: #41b132;
+}
+nav img {
+    width: 250px;
+    height: 250px;
 }
