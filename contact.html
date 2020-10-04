@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="">
-        <title>Bootstrap Site</title>
+        <title>Frogger Contact</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/css.css">
         <link rel="stylesheet" type="text/css" href="css/contact.css">
@@ -68,8 +68,19 @@
                     <label name="BDay">Date of Birth:</label>
                     <input type="date" id="Bday" name="BDay">
                 </div>
+
+                <div class="inputs">
+                    <label name="message">Message/Concern</label>
+                    <textarea id="textInput" name="message"></textarea>
+                </div>
+
+                <div class="inputs">
+                    <input type="submit" id="submitButton" onclick="userMessage()">
+                </div>
             </form>
         </article>
+
+        <br>
 
 
         <footer>

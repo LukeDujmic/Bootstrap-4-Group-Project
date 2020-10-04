@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
 body {
     background-color: #9bd494;
+    font-family: 'PressStart2P';
 }
 .wrapper 
 {
@@ -21,13 +27,19 @@ canvas
     width: 100%;
     height: 100%;
 }
+p
+{
+    position: relative;
+    top: 750px;
+    text-align: center;
+}
 #indexButton
 {
     position: relative;
     top: 750px;
     margin: auto;
     text-align: center;
-    left: 34%;
+    left: 36%;
 }
 #indexButton > img
 {

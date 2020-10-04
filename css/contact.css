@@ -11,6 +11,7 @@ article
     background-color: rgb(0, 73, 0);
     padding: 10px;
     margin: 0px;
+    margin-bottom: 10px;
 }
 /* hover */
 form
@@ -32,6 +33,7 @@ form
 {
     display: block;
     margin: 0;
+    text-indent: 0px;
 }
 
 .inputs > input
@@ -43,6 +45,14 @@ form
     color: rgb(0, 83, 0);
     width: 100%;
 }
+.inputs > #textInput
+{
+    max-width: 100%;
+    min-width: 100%;
+    border: 5px solid rgb(9, 77, 0);
+    color: rgb(0, 83, 0);
+    padding: 5px;
+}
 .inputs > #Bday
 {
     width: auto;
@@ -51,3 +61,20 @@ form
 {
     border: 5px solid rgb(0, 141, 0); 
 }
+.inputs > #submitButton
+{
+    width: 50%;
+    margin: auto;
+    background-color:rgb(9, 77, 0);
+    color: white;
+    margin-top: 20px;
+    transition: .33s;
+}
+.inputs > #submitButton:hover
+{
+    box-shadow: 0px 5px 0px rgb(5, 39, 0);
+    transform: translate(0px, -5px);
+    transition: .33s;
+    background-color:rgb(11, 95, 0);
+}
+

@@ -47,13 +47,20 @@ nav img {
     height: 250px;
 }
 
+p
+{
+    position: relative;
+    top: 650px;
+    text-align: center;
+}
+
 #indexButton
 {
     position: relative;
     top: 650px;
     margin: auto;
     text-align: center;
-    left: 34%;
+    left: 36%;
 }
 #indexButton > img
 {
